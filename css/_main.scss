@@ -1,0 +1,120 @@
+$rosado:#F5A4F0;
+
+//Video Mas Logo
+.logo-video{
+    background: url("../img/Kimetsu\ no\ Yaiba_\ For\ you\ {Rengoku\ Kyōjurō\ x\ OC}.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 54px;
+    width: 100%;
+    height: 50vh;
+    .text{
+        padding: 10px;
+        h1{
+            font-family: "italic-love";
+            color: $rosado;
+            font-size: 100px;
+        }
+        p{
+            color: white;
+        }
+    }
+}
+
+//MAIN
+main{
+    padding: 10px;
+    background: url(../img/texture.png);
+    background-attachment: fixed;
+    .sectionOne{
+        h2{
+            margin-bottom: 20px;
+        }
+        .card{
+            box-shadow: 0px 0px 5px black;
+            text-align: center;
+            width: 30%;
+            margin-bottom: 10px;
+        }
+    } 
+    .sectionTwo{
+        //WOMEN
+        .women{
+            width: 70%;
+            .imgT{
+               width: 10%;
+               img{
+                   width: 100%;
+                   border-radius: 50%;
+               }
+            }
+            .text{
+                width: 90%;
+            }
+        }
+        .man{
+            flex-direction: row-reverse;
+            width: 70%;
+            .imgT{
+               width: 10%;
+               img{
+                   width: 100%;
+                   border-radius: 50%;
+               }
+            }
+            .text{
+                width: 90%;
+            }
+        }
+    }
+    .sectionThree{
+        
+        div{
+            overflow: hidden;
+            background: white;
+            border-radius: 100px;
+            box-shadow: black 0 0 10px;
+            img:nth-child(1){
+            width: 30%;
+            }
+            img:nth-child(2){
+                width: 30%;
+      
+            }
+            img:nth-child(3){
+                width: 20%;
+      
+            }
+        }
+    }   
+}
+#top{
+    position: fixed;
+    background: rgba($color: white, $alpha: 0.1);
+    border: none;
+    width: 4%;
+    right: 0.2%;
+    bottom: 0.2%;
+    z-index: 1;
+}
+.sectionOne2{
+    background: white;
+    .pp{
+        color: $rosado;
+    }
+    .kg{
+        color: black;
+    }
+    p{
+       color: $rosado;
+    }
+    .xl{
+        width: 40%;
+    }
+    .l{
+        width: 35%;
+    }
+    .m{
+        width: 15%;
+    }
+}

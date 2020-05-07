@@ -1,0 +1,123 @@
+@media screen and (max-width:810px){
+    .logo-video{
+        .text{
+            h1{
+                font-size: 75px;
+            }
+        }
+    }
+}
+@media screen and (max-width:713px){
+    header{
+        flex-direction: column;
+        nav{
+           a{
+               font-size: 10px;
+           }
+        }
+    }
+}
+@media screen and (max-width:572px){
+    .logo-video{
+        .text{
+            h1{
+                font-size: 50px;
+            }
+        }
+    }
+    main{
+        .sectionOne{
+            .card{
+                width: 45%;
+                margin: 5px;
+            }
+        }
+    }
+}
+@media screen and (max-width:405px){
+    .logo-video{
+        .text{
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+    main{
+        .sectionOne{
+            .card{
+                width: 80%;
+                margin: auto;
+                margin-bottom: 5px;
+            }
+        }
+        .sectionTwo{
+            //WOMEN
+            .women{
+                width: 70%;
+                flex-direction: column;
+                .imgT{
+                   width: 50%;
+                   img{
+                       width: 100%;
+                       border-radius: 50%;
+                   }
+                }
+                .text{
+                    width: 90%;
+                }
+            }
+            .man{
+                width: 70%;
+                flex-direction: column;
+                .imgT{
+                   width: 50%;
+                   margin-right: 7px;
+                   img{
+                       width: 100%;
+                       border-radius: 50%;
+                   }
+                }
+                .text{
+                    width: 90%;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:500px){
+    .sectionOne2 .shampoo .xl,
+    .sectionOne2 .shampoo .l,
+    .sectionOne2 .shampoo .m{
+        width: 100%;
+    }
+   footer{
+       flex-direction: column;
+       align-items: center;
+       .socialReds{
+           margin-top: 10px;
+           border-top: 1px dotted black;
+           border-left: none;
+           justify-content: center;
+           a{
+               padding: 0;
+               width: 20%;
+               margin: 1px;
+           }
+       }
+   }
+}
+@media screen and (max-width:396){
+    body{
+        padding-top: 38px;
+    }
+}
+@media screen and (orientation:landscape){
+    .logo-video{
+        .text{
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+}

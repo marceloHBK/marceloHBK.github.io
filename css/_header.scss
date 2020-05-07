@@ -1,0 +1,51 @@
+$rosado:#F5A4F0;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: "italic-love";
+    src: url("../fonts/lovers-italic/Vtks\ Lovers\ Italic.ttf");
+}
+
+body{
+    overflow-x: hidden;
+}
+//HEADER
+header{
+    position: fixed;
+    width: 100%;
+    background: white;
+    box-shadow: black 1px 0px 10px;
+    overflow: hidden;
+    z-index: 2;
+    top: 0;
+    right: 0;
+
+    .logo{
+        margin-left: 10px;
+        display: inline-block;
+        color: $rosado;
+        text-decoration: $rosado underline;
+    }
+
+    /*Menu*/
+    .menu{
+        a{
+            padding: 15px;
+            color: $rosado;
+            position: relative;
+            &:hover{
+                transition: .3s ease all;
+                background: $rosado;
+                color: white;
+            }
+            &:active{
+                background: $rosado;
+                color: white;
+            }
+        }
+    }
+}
